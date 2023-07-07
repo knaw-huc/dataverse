@@ -1,0 +1,184 @@
+*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 52px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+     margin-top: 30px; 
+    /* margin-top: 50px; */
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 30px 0;
+}
+footer p {
+    color: #808080;
+}
+footer span.socicon-github {
+    color: #000;
+    font-size: 1.3em;
+    vertical-align: top;
+}
+
+iframe {
+	border:0;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    color:#C55B28 !important;
+}
+span.navbar-brand {color:#C55B28 !important; padding-left: 32px; height: 50px;}
+span.navbar-brand .icon-dataverse {color:#C55B28; font-size:28px; margin: -4px 0 0 -27px; position: absolute;}
+ul.navbar-nav li.dropdown span.dropdown-toggle {display: block; padding: 15px; color: #777;}
+ul.navbar-nav li.dropdown.open > span.dropdown-toggle {background: #e7e7e7;}
+.bg-dataverse, bg-brand {background:#C55B28;}
+.bg-dataset {background:#337AB7;}
+.bg-file {background:#777777;}
+.bg-muted {background:#F5F5F5;}
+.text-dataverse, .text-brand {color:#C55B28;}
+.text-dataset {color:#31708F;}
+.text-file {color:#777777;}
+
+#dataverse-org-homepage-url {
+    height: 50px;
+    background: rgba(0, 0, 0, 0) url("../_static/images/dataverseicon.png") no-repeat scroll 0 8px;
+    line-height: 20px;
+    padding-left: 26px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #303030 !important;
+}
+
+a.headerlink {
+    font-size: 60%;
+    vertical-align: middle;
+    color: #d14e6f;
+}
+
+#sidebar.bs-sidenav {
+    background-color: #f8d5b8;
+}
+#sidebar.bs-sidenav .nav > li > a:hover, #sidebar.bs-sidenav .nav > li > a:focus {
+    background-color: #fbf4c5;
+    border-right: 1px solid #dbd8e0;
+    text-decoration: none;
+}
+
+.fixedwidthplain {
+    color:#606060; 
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace; 
+}
+
+div.panel.panel-default.code-example {
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+div.panel.panel-default.code-example + div.highlight-html pre {
+    border-radius: 0 0 4px 4px !important;
+}
+div.code-example .color-swatches {
+    margin: 0 5px;
+    overflow: hidden;
+}
+div.code-example .color-swatch {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    border-radius: 3px
+}
+div.code-example .messagePanel .glyphicon {
+    font-size: 1.5em;
+    vertical-align: bottom;
+}
+div.code-example span.glyphicon-question-sign.tooltip-icon {color: #99bcdb !important;}
+div.code-example span.glyphicon-question-sign.tooltip-icon:hover {color: #337AB7 !important;}
+
+div.code-example .btn-group .btn-link {font-size:2em !important;}
+div.code-example .btn-group .btn.btn-link.bootstrap-button-tooltip span.caret {margin-left: 6px;}
+
+div.code-example .btn.btn-default.btn-access {background-color: #fff;background-image:none;}
+div.code-example .btn.btn-default.btn-access:focus, div.code-example .btn.btn-default.btn-access:hover, div.code-example .btn.btn-default.btn-access:active {background-color: #e6e6e6;background-image:none;}
+
+/* Dropdown submenu */
+div.code-example .dropdown-submenu {
+    position: relative;
+}
+div.code-example .dropdown-submenu.pull-left {
+    width: 100%;
+}
+div.code-example .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+div.code-example .dropdown-submenu.pull-left>.dropdown-menu {
+    float: right;
+    min-width: 100%;
+}
+
+div.code-example .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+div.code-example .dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+div.code-example .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+div.code-example .dropdown-submenu.pull-left {
+    float: none;
+}
+
+div.code-example .dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+#breadcrumbNavBlock {margin-top:.5em;}
+#breadcrumbNavBlock .breadcrumbBlock {float:left; position:relative;}
+#breadcrumbNavBlock .breadcrumbActive {font-weight:bold;}
+#breadcrumbNavBlock .breadcrumbCarrot {float: left; margin: 0 .4em; color: #B3B3B3; display: block;}
+
+div.form-group .glyphicon.glyphicon-asterisk {font-size: .5em; vertical-align: text-top;}
+
+/* alternative formattings:  font-weight: bold; font-size: 110%; etc. */
+
+/* #sidebar.bs-sidenav.affix {
+	position: static;
+} REMOVED STATIC ToC */
+
+pre {
+    white-space: pre-wrap;
+}

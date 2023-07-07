@@ -1,0 +1,15 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{# Add some extra stuff before and use existing with 'super()' call. #}
+{% block footer %}
+{{ super() }}
+<script>
+    $jqTheme(document).ready(function () {
+        // Rebind bootstrap UI components
+        bind_bsui_components();
+    });
+</script>
+{% endblock %}
+
+{# Import the theme's layout. #}

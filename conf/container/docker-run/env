@@ -1,0 +1,2 @@
+# format: name=value -- BEWARE: do not use "" around values - they will be part of the vars content!
+db_DoiProvider=FAKE
